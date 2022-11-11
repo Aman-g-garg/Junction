@@ -67,7 +67,7 @@ THIRD_PARTY_APPS = (
     "allauth.socialaccount.providers.github",
     "bootstrap3",
     "pagedown",
-    "markdownx",
+    "markdown_deux",
     "django_bootstrap_breadcrumbs",
     "rest_framework",
     "django_filters",

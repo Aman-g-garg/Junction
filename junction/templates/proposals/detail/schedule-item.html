@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% load bootstrap3 %}
-
+{% load markdown_deux_tags %}
 
 {% load static  %}
 {% load django_bootstrap_breadcrumbs %}
@@ -45,7 +45,7 @@
             <section class="col-sm-8 proposal-writeup">
                 <div class="proposal-writeup--section">
                     <h4 class='heading'><b>Description:</b></h4>
-                    <p>{{ sch_item.alt_description|markdown_safe }}</p>
+                    <p>{{ sch_item.alt_description|markdown|safe }}</p>
                 </div>
             </section>
         </div>
