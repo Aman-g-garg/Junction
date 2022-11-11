@@ -15,4 +15,4 @@ class BaseAppConfig(AppConfig):
     def ready(self):
         print("Monkey patching...", file=sys.stderr)
         monkey.patch_urltag()
-        # monkey.patch_urlresolvers()
+        monkey.patch_urlresolvers()
